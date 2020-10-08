@@ -1,0 +1,166 @@
+/* FONT */
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url('./fonts/webfontkit-20201007-175822/aktivgrotesk_trial_bd-webfont.woff2') format('woff2'),
+         url('./fonts/webfontkit-20201007-175822/aktivgrotesk_trial_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BODY */
+
+html{
+    font-family: "aktivgrotesk", sans-serif !important;
+    color: #0D1F35;
+}
+
+.mainArticle h1{
+    padding: .5rem 0rem;
+    line-height: 100%;
+}
+
+.mainArticle p{
+    color: #0D1F35CC;
+    font-size: 14px;
+}
+
+.otherArticles hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.otherArticles p{
+    color: #0D1F35CC;
+    font-size: 14px;
+}
+
+.otherArticles img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.otherArticles a{
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.otherLinks a{
+    text-decoration: underline;
+}
+
+.otherLinks h2{
+    font-weight: bold;
+    color: #0D1F35;
+    letter-spacing: -.5px;
+}
+
+.otherLinks li{
+    margin-top: .75rem;
+}
+
+.otherLinks hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.otherLinks .blueLink{
+    color: #119DF7;
+    text-decoration: none;
+}
+
+.otherLinks hr{
+    height: 1px;
+    background-color: #0D1F35;
+}
+
+.bottomLinks h3{
+    font-size: 2rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.alert{
+    background-color: #C53030;
+    color: white;
+    padding: .25rem .25rem 0rem .25rem;
+}
+
+.letterSpacing{
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.fillBlue{
+    background-color: #0D1F35;
+}
+
+.borderBlue{
+    border: 2px solid #0D1F35;
+}
+
+@media (min-width: 768px){
+    .bottomLinksBorder{
+        border-left: 2px solid white;
+    }
+
+    .mainLogo{
+        width: 60%;
+    }
+
+    .dropdown {
+        visibility: hidden;
+      }
+
+    .mobileFooter{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .smallMargin{
+        margin: 0rem 1rem;
+    }
+
+    .centerItems{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .navForm{
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        width: 100vw;
+        background-color: #0D1F35;
+        color: white;
+      }
+
+    .dropdown-menu h3{
+        font-size: 2rem;
+        letter-spacing: -1px;
+        font-weight: bold;
+        line-height: 95%;
+    }
+
+    .dropdown-menu a{
+        font-size: 1rem;
+    }
+
+    .dropdown .terms{
+        color: #ffffff99;
+        font-size: 1rem;
+    }
+
+    .dropdown .terms a{
+        text-decoration: underline;
+        font-size: unset;
+    }
+
+    .footers{
+        display: none;
+    }
+}
